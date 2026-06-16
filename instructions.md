@@ -349,7 +349,7 @@ When it comes to disaster recovery, the first thing we should worry about is our
 
 For this exercise we'll simply focus on how to re-populate the database using a SQL script file.
 
-Notice [from our original setup script](./setup/deploy_scenario.ps1) that we had to use the `sqlcmd` tool to seed the database after it was created. Is this something we can manage within our Terraform scripts?
+Notice [from our original setup script](./setup/deploy_scenario.sh) that we had to use the `sqlcmd` tool to seed the database after it was created. Is this something we can manage within our Terraform scripts?
 
 <details><summary>Hint</summary>
 
